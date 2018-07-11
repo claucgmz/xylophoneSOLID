@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F45F1E220F699F900D5439D /* FileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F45F1E120F699F900D5439D /* FileHandler.swift */; };
+		5F45F1E420F69C8F00D5439D /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F45F1E320F69C8F00D5439D /* AudioPlayer.swift */; };
+		5F45F1E620F69E1600D5439D /* AVAudioPlayerr+Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F45F1E520F69E1600D5439D /* AVAudioPlayerr+Player.swift */; };
+		5F45F1E820F69F5900D5439D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F45F1E720F69F5900D5439D /* Player.swift */; };
+		5F45F1EA20F6A2C300D5439D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F45F1E920F6A2C300D5439D /* Note.swift */; };
+		5F45F1EC20F6A38100D5439D /* KeyNoteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F45F1EB20F6A38100D5439D /* KeyNoteButton.swift */; };
 		63C019C91C58DF76001F4187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C019C81C58DF76001F4187 /* AppDelegate.swift */; };
 		63C019CB1C58DF76001F4187 /*  VIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C019CA1C58DF76001F4187 /*  VIewController.swift */; };
 		63C019CE1C58DF76001F4187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C019CC1C58DF76001F4187 /* Main.storyboard */; };
@@ -22,6 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F45F1E120F699F900D5439D /* FileHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHandler.swift; sourceTree = "<group>"; };
+		5F45F1E320F69C8F00D5439D /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		5F45F1E520F69E1600D5439D /* AVAudioPlayerr+Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVAudioPlayerr+Player.swift"; sourceTree = "<group>"; };
+		5F45F1E720F69F5900D5439D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		5F45F1E920F6A2C300D5439D /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		5F45F1EB20F6A38100D5439D /* KeyNoteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyNoteButton.swift; sourceTree = "<group>"; };
 		63C019C51C58DF76001F4187 /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C019C81C58DF76001F4187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63C019CA1C58DF76001F4187 /*  VIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " VIewController.swift"; sourceTree = "<group>"; };
@@ -89,6 +101,12 @@
 				63C019D11C58DF76001F4187 /* LaunchScreen.storyboard */,
 				63C019D41C58DF76001F4187 /* Info.plist */,
 				6385B12D1C68C76C00E57640 /* Sound Files */,
+				5F45F1E120F699F900D5439D /* FileHandler.swift */,
+				5F45F1E320F69C8F00D5439D /* AudioPlayer.swift */,
+				5F45F1E520F69E1600D5439D /* AVAudioPlayerr+Player.swift */,
+				5F45F1E720F69F5900D5439D /* Player.swift */,
+				5F45F1E920F6A2C300D5439D /* Note.swift */,
+				5F45F1EB20F6A38100D5439D /* KeyNoteButton.swift */,
 			);
 			path = Xylophone;
 			sourceTree = "<group>";
@@ -173,8 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F45F1E220F699F900D5439D /* FileHandler.swift in Sources */,
+				5F45F1EC20F6A38100D5439D /* KeyNoteButton.swift in Sources */,
 				63C019CB1C58DF76001F4187 /*  VIewController.swift in Sources */,
+				5F45F1EA20F6A2C300D5439D /* Note.swift in Sources */,
 				63C019C91C58DF76001F4187 /* AppDelegate.swift in Sources */,
+				5F45F1E620F69E1600D5439D /* AVAudioPlayerr+Player.swift in Sources */,
+				5F45F1E820F69F5900D5439D /* Player.swift in Sources */,
+				5F45F1E420F69C8F00D5439D /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
